@@ -1,7 +1,3 @@
-export default function FaqPage() {
-    return(
-        <h1>
-            FaqPage
-        </h1>
-    )
-}
+import FAQScreen from "../src/screens/FAQScreen";
+
+export default FAQScreen;
