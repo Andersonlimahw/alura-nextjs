@@ -1,7 +1,15 @@
 import FAQScreen from "../src/screens/FAQScreen";
 export default FAQScreen;
 
-export async function getStaticProps() {
+// SSG - 
+// export async function getStaticProps
+// getStaticProps Utilizado quando o conteudo nao precisa mudar eh apenas estaticos
+// entao mesmo se a api do guthub neste caso mudar fica disponivel
+
+// export async function getServerSideProps
+// getStaticProps Roda a cada acesso a page, importante para quando 
+// se precisar que seja dinamica com informacoes de uma api
+export async function getServerSideProps() {
     console.log(`Em modo DEV sempre executa a cada acesso.`);
     console.log(`Roda SOMENTE em tempo de build`);
 
