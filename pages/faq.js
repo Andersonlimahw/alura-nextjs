@@ -9,7 +9,7 @@ export default FAQScreen;
 // export async function getServerSideProps
 // getStaticProps Roda a cada acesso a page, importante para quando 
 // se precisar que seja dinamica com informacoes de uma api
-export async function getServerSideProps() {
+export async function getStaticProps() {
     console.log(`Em modo DEV sempre executa a cada acesso.`);
     console.log(`Roda SOMENTE em tempo de build`);
 
