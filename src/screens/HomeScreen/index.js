@@ -196,7 +196,7 @@ export default function HomeScreen() {
                         },
                       }}
                     >
-                      O que tem de novo?
+                      Novidades
                     </Text>
                     <Text
                       styleSheet={{
